@@ -167,5 +167,9 @@ public class Student {
     public String toString() {
         return "Student{" + "studentID=" + studentID + ", name1S=" + name1S + ", name2S=" + name2S + ", surname1S=" + surname1S + ", surname2S=" + surname2S + ", mobileS=" + mobileS +", addressS=" + addressS +", stratumS=" + stratumS +", institutionalEmailS=" + institutionalEmailS +", custodianMobile1=" + custodianMobile1 +", custodianMobile2=" + custodianMobile2 +", userS=" + userS +", passwordS=" + passwordS + '}';   
 }
+
+    public boolean insertStudent(String sql, Student objs) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }
